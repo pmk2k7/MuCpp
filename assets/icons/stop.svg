@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <defs>
+    <linearGradient id="stopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F87171" />
+      <stop offset="100%" stop-color="#DC2626" />
+    </linearGradient>
+  </defs>
+  <!-- Stop rounded square -->
+  <rect x="4" y="4" width="16" height="16" rx="3.5" fill="url(#stopGrad)" stroke="#B91C1C" stroke-width="1.2" />
+  <!-- Inner soft border -->
+  <rect x="6.5" y="6.5" width="11" height="11" rx="2" fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-opacity="0.6" />
+</svg>

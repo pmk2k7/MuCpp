@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <defs>
+    <linearGradient id="diskGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+  </defs>
+  <!-- Disk body -->
+  <path d="M 4 4 C 4 3.45 4.45 3 5 3 L 17 3 L 20 6 L 20 19 C 20 19.55 19.55 20 19 20 L 5 20 C 4.45 20 4 19.55 4 19 Z" 
+        fill="url(#diskGrad)" stroke="#1E40AF" stroke-width="1.2" />
+  <!-- Shutter / label top -->
+  <rect x="7" y="3" width="10" height="6" rx="1" fill="#F8FAFC" />
+  <rect x="13" y="4" width="2.5" height="4" fill="#2563EB" />
+  <!-- Paper label bottom -->
+  <rect x="6.5" y="12" width="11" height="8" rx="1" fill="#FFFFFF" stroke="#93C5FD" stroke-width="0.8" />
+  <line x1="8.5" y1="15" x2="15.5" y2="15" stroke="#94A3B8" stroke-width="1.2" stroke-linecap="round" />
+  <line x1="8.5" y1="17.5" x2="13.5" y2="17.5" stroke="#94A3B8" stroke-width="1.2" stroke-linecap="round" />
+</svg>

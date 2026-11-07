@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <defs>
+    <linearGradient id="gearHalve" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="fastPlay" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <!-- Gear on the left -->
+  <path d="M 8 3 L 9.2 5.5 C 8.6 6 8.1 6.6 7.7 7.2 L 5 6.4 L 3.8 8.4 L 6 10 C 5.9 10.6 5.9 11.4 6 12 L 3.8 13.6 L 5 15.6 L 7.7 14.8 C 8.1 15.4 8.6 16 9.2 16.5 L 8 19 L 10.5 19.5 L 11.5 17.2 C 12 17.3 12.5 17.3 13 17.2 L 13 15 C 11.3 15 10 13.7 10 12 C 10 10.3 11.3 9 13 9 L 13 6.8 C 12.5 6.7 12 6.7 11.5 6.8 L 10.5 4.5 Z" 
+        fill="url(#gearHalve)" />
+  <!-- Prominent Green Play Arrow on Right -->
+  <path d="M 12 7 C 11.4 6.6 10.8 7 10.8 7.7 L 10.8 16.3 C 10.8 17 11.4 17.4 12 17 L 19.5 12.7 C 20.1 12.3 20.1 11.7 19.5 11.3 Z" 
+        fill="url(#fastPlay)" stroke="#FFFFFF" stroke-width="1.2" stroke-linejoin="round" />
+  <!-- Speed lines -->
+  <line x1="19" y1="6" x2="22" y2="6" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="20" y1="18" x2="23" y2="18" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" />
+</svg>

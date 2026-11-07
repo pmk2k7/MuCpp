@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="50%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1E1B4B" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <!-- Background squircle -->
+  <rect x="2" y="2" width="44" height="44" rx="10" fill="url(#bgGrad)" filter="url(#shadow)" />
+  <rect x="3" y="3" width="42" height="42" rx="9" fill="none" stroke="#60A5FA" stroke-width="1" stroke-opacity="0.4" />
+  
+  <!-- Stylized Greek letter Mu (μ) -->
+  <path d="M 12 18 V 32 M 12 25 C 12 22 15 20 18 20 C 22 20 22 24 22 26 V 32 M 12 36 V 30" 
+        fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" />
+        
+  <!-- Modern 'C' -->
+  <path d="M 31 22 C 29.5 20.5 27 20.5 25.5 22 C 23.5 24 23.5 28 25.5 30 C 27 31.5 29.5 31.5 31 30" 
+        fill="none" stroke="url(#accentGrad)" stroke-width="3" stroke-linecap="round" />
+        
+  <!-- Plus Plus (++) -->
+  <path d="M 34 23 V 27 M 32 25 H 36" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" />
+  <path d="M 40 23 V 27 M 38 25 H 42" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" />
+</svg>
